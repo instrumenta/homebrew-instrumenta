@@ -2,9 +2,9 @@
 class Kubeval < Formula
   desc "Validate your Kubernetes configurations"
   homepage "https://github.com/instrumenta/kubeval"
-  url "https://github.com/instrumenta/kubeval/releases/download/0.9.1/kubeval-darwin-amd64.tar.gz"
-  version "0.9.1"
-  sha256 "77e9d9c973b4e00a486ce7ea9dd09a0b577d0d9240a158a69ee5ba875f3bdcc4"
+  url "https://github.com/instrumenta/kubeval/releases/download/0.9.2/kubeval-darwin-amd64.tar.gz"
+  version "0.9.2"
+  sha256 "a2fcd6756bf73c8ba223d0ce687182da213b4230ebf27bf690856b2bba7a06ed"
 
   def install
     bin.install "kubeval"
