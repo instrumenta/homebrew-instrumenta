@@ -2,9 +2,9 @@
 class Conftest < Formula
   desc "Test your configuration using Open Policy Agent"
   homepage "https://github.com/instrumenta/conftest"
-  url "https://github.com/instrumenta/conftest/releases/download/v0.7.0/conftest_0.7.0_Darwin_x86_64.tar.gz"
-  version "0.7.0"
-  sha256 "adc8ba459497486e3fd8903323df8bd14822efcdd900ab358a8f97b4ba9e15ef"
+  url "https://github.com/instrumenta/conftest/releases/download/v0.8.0/conftest_0.8.0_Darwin_x86_64.tar.gz"
+  version "0.8.0"
+  sha256 "2bf21a7f8029c6985805416ceb429cc88d00440dafbe49dc74a5dc20f5b1c735"
 
   def install
     bin.install "conftest"
