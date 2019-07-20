@@ -2,14 +2,14 @@
 class Kubeval < Formula
   desc "Validate your Kubernetes configurations"
   homepage "https://github.com/instrumenta/kubeval"
-  version "0.11.0"
+  version "0.12.0"
 
   if OS.mac?
-    url "https://github.com/instrumenta/kubeval/releases/download/0.11.0/kubeval-darwin-amd64.tar.gz"
-    sha256 "99769453f547305d26a4ced4a7c96de00917ca0b43ff7d8a8fa77595cd020da0"
+    url "https://github.com/instrumenta/kubeval/releases/download/0.12.0/kubeval-darwin-amd64.tar.gz"
+    sha256 "c8167b47e448bbb7afb0958d8e0e6c1ee3eca3b4d79360aa78c1519343cb713d"
   elsif OS.linux?
-    url "https://github.com/instrumenta/kubeval/releases/download/0.11.0/kubeval-linux-amd64.tar.gz"
-    sha256 "3c5ad1787b4c7af85587dfbbc00daf96a26d93715a6b4a8944a07652e7d42280"
+    url "https://github.com/instrumenta/kubeval/releases/download/0.12.0/kubeval-linux-amd64.tar.gz"
+    sha256 "0f37dc0c06089e25045e26d8868ef94cd947487a1509b6369d90940ec7308b8c"
   end
 
   def install
