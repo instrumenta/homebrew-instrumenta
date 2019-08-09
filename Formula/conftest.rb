@@ -2,14 +2,15 @@
 class Conftest < Formula
   desc "Test your configuration using Open Policy Agent"
   homepage "https://github.com/instrumenta/conftest"
-  version "0.10.0"
+  version "0.11.0"
+  bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/instrumenta/conftest/releases/download/v0.10.0/conftest_0.10.0_Darwin_x86_64.tar.gz"
-    sha256 "0946f14e81b2a0985db54771525a451d765c59f18dcc52be4ea3a9603926d3d9"
+    url "https://github.com/instrumenta/conftest/releases/download/v0.11.0/conftest_0.11.0_Darwin_x86_64.tar.gz"
+    sha256 "25564d5ecdbb8e9aaf7432a02e04668de2a81e76710298c2a41e3a79ade0509e"
   elsif OS.linux?
-    url "https://github.com/instrumenta/conftest/releases/download/v0.10.0/conftest_0.10.0_Linux_x86_64.tar.gz"
-    sha256 "fd011c0e4ac721657613039709a5b0e48ccdef207f3c0d6cd1cf852cac6af197"
+    url "https://github.com/instrumenta/conftest/releases/download/v0.11.0/conftest_0.11.0_Linux_x86_64.tar.gz"
+    sha256 "935ce17d12041af23d0fa98135ddc56c32108ef7e522bb608c62bddbf8611881"
   end
 
   def install
