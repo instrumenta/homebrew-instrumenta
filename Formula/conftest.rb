@@ -2,16 +2,16 @@
 class Conftest < Formula
   desc "Test your configuration using Open Policy Agent"
   homepage "https://github.com/open-policy-agent/conftest"
-  version "0.19.0"
+  version "0.20.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/open-policy-agent/conftest/releases/download/v0.19.0/conftest_0.19.0_Darwin_x86_64.tar.gz"
-    sha256 "ddb8734773808ffb4a2a103a5be186ecd8f67370ffd5ab4f9660c2040fd48105"
+    url "https://github.com/open-policy-agent/conftest/releases/download/v0.20.0/conftest_0.20.0_Darwin_x86_64.tar.gz"
+    sha256 "cf9f7c7153e4634409f1159178ea433e1524db43e754ae808cae63a7d1ebe32c"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/open-policy-agent/conftest/releases/download/v0.19.0/conftest_0.19.0_Linux_x86_64.tar.gz"
-      sha256 "fe1112979b081cfd7a2f5bdbf1d5e2521a649ff77efb4c2a528e70de37a8f9c8"
+      url "https://github.com/open-policy-agent/conftest/releases/download/v0.20.0/conftest_0.20.0_Linux_x86_64.tar.gz"
+      sha256 "6647697fd811daa3fcd0777654181b5ad4d7dda67dcab358a01fc821801bc0a1"
     end
   end
 
