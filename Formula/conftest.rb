@@ -2,21 +2,21 @@
 class Conftest < Formula
   desc "Test your configuration using Open Policy Agent"
   homepage "https://github.com/open-policy-agent/conftest"
-  version "0.21.0"
+  version "0.22.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/open-policy-agent/conftest/releases/download/v0.21.0/conftest_0.21.0_Darwin_x86_64.tar.gz"
-    sha256 "d0194847006bb32926b517a563a58620a7c7f46163b52204394e6ca99468eb92"
+    url "https://github.com/open-policy-agent/conftest/releases/download/v0.22.0/conftest_0.22.0_Darwin_x86_64.tar.gz"
+    sha256 "c27967b128603ce793517d22d321980d4fe6c675642aef308bcfe5c286a175f7"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/open-policy-agent/conftest/releases/download/v0.21.0/conftest_0.21.0_Linux_x86_64.tar.gz"
-      sha256 "1ac7890d77cfe9111dfe76cf94d5a9afab605ae2f3854059d8695d14a2a71d46"
+      url "https://github.com/open-policy-agent/conftest/releases/download/v0.22.0/conftest_0.22.0_Linux_x86_64.tar.gz"
+      sha256 "5e95311c50475c88d42800da0059da408e56bfb57eedac465da7ed1edde4d037"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/open-policy-agent/conftest/releases/download/v0.21.0/conftest_0.21.0_Linux_arm64.tar.gz"
-        sha256 "4988ed9b2e1994fb4f43feb6a3b027b94e69ba06093d7963719f00041ac8c4fd"
+        url "https://github.com/open-policy-agent/conftest/releases/download/v0.22.0/conftest_0.22.0_Linux_arm64.tar.gz"
+        sha256 "12aaa70e9c87d54b98047e9cba7092d4186673f570cdd8f4b46b7e0d38395c28"
       else
       end
     end
