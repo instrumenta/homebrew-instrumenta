@@ -6,7 +6,6 @@ class Conftest < Formula
   desc "Test your configuration using Open Policy Agent"
   homepage "https://github.com/open-policy-agent/conftest"
   version "0.23.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/open-policy-agent/conftest/releases/download/v0.23.0/conftest_0.23.0_Darwin_x86_64.tar.gz"
